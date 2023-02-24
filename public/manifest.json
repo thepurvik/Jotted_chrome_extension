@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Jotted",
+  "version": "0.1",
+  "description": "This is jotted extension",
+  "background": {
+    "service_worker": "./background.js"
+  },
+  "permissions": ["activeTab", "tabs", "bookmarks", "webRequest"],
+
+  "author": "Rishabh Rathore",
+
+  "short_name": "React Extension",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Jotted",
+    "default_icon": {
+      "16": "/images/react-logo-16.png",
+      "32": "/images/react-logo-32.png",
+      "48": "/images/react-logo-48.png",
+      "128": "/images/react-logo-128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/react-logo-16.png",
+    "32": "/images/react-logo-32.png",
+    "48": "/images/react-logo-48.png",
+    "128": "/images/react-logo-128.png"
+  }
+}
